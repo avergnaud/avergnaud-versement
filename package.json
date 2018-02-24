@@ -1,0 +1,36 @@
+{
+  "name": "avergnaud-versement",
+  "version": "1.0.0",
+  "description": "bean versement",
+  "main": "dist/index",
+  "typings": "dist/index",
+  "scripts": {
+    "prepublishOnly": "npm run compile",
+    "compile": "npm run clean && tsc -p .",
+    "watch": "tsc -w -p .",
+    "clean": "rm -rf dist"
+  },
+  "bugs": {
+    "url": "https://github.com/avergnaud/avergnaud-versement/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avergnaud/avergnaud-versement.git"
+  },
+  "keywords": [
+    "bean versement"
+  ],
+  "author": "avergnaud@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^8.0.0",
+    "typescript": "^2.6.1"
+  },
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts",
+    "dist/versement.js",
+    "dist/versement.d.ts",
+    "dist/lib"
+  ]
+}
