@@ -2,7 +2,7 @@
 /**
  * Versement (paiement)
  */
-export default interface versement {
+export default interface Versement {
     id:number
     etat:string
     client:string
